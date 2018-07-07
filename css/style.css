@@ -1,0 +1,118 @@
+body {
+  background-color: #1abc9c;
+  font: 1em Helvetica;
+}
+
+#container {
+  width: 720px;
+  margin: 25px auto;
+}
+
+.form {
+  width: 280px;
+  height: 347px;
+  position: relative;
+  display: inline-block;
+  
+}
+
+.form, .estimasi {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 400px;
+  color: rgba(0,0,0,.6);
+}
+
+.estimasi {
+  width: 435px;
+  float: right;
+}
+
+.form h3{
+  font-size: 20px;
+}
+
+.estimasi h3 {
+  font-size: 22px;
+}
+
+#output {
+  resize: none;
+  width: 380px;
+  margin-top: 0;
+  height: 298px;
+  border-radius: 4px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+  outline: none;
+  border: 0;
+}
+
+#usia {
+  border-bottom: 1px solid grey;
+  border: 0;
+  display: block;
+  width: 180px;
+  height: 50px;
+  font-size: 14px;
+  text-align: center;
+  margin: 3px auto;
+}
+
+button {
+  display: block;
+  margin: 5px 0;
+  height: 30px;
+  font-weight: bold;
+  position: relative;
+  left: 94px;
+  width: 90px;
+  color: rgba(0,0,0,.6);
+}
+
+#usia:hover {
+  font-size: 40px;
+  border: 0;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background-color: #53CACE;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+[type='number']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+p#status {
+  color: rgba(0,0,0,.6);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+#footer {
+  padding: 5px;
+  margin-top: 5px;
+  height: 20px;  
+  background-color: #369683;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
