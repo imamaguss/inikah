@@ -8,6 +8,11 @@ body {
   margin: 25px auto;
 }
 
+.header img {
+  width: 200px;
+  height: 30px;
+}
+
 .form {
   width: 280px;
   height: 347px;
@@ -109,10 +114,13 @@ p#status {
 
 #footer {
   padding: 5px;
-  margin-top: 5px;
-  height: 20px;  
+  margin-top: 4px;
+  height: 15px;  
   background-color: #369683;
   border-radius: 5px;
   text-align: center;
   color: white;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 15px;;
 }

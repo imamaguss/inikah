@@ -7,11 +7,11 @@ const footer = document.getElementById('footer');
 
 output.disabled = true;
 tombol.onclick = 'proses()';
-gambar.src = 'img/0.png';
+gambar.src = 'img/logo.png';
 
 function proses() {
   if(usia.value < 0 || usia.value > 99) {
-    output.value = 'Input tidak valid. Silakan coba lagi.';
+    output.value = 'Input tidak valid. Silakan coba lagi :)';
   } else {
     output.value = count();
   }
@@ -35,11 +35,11 @@ function count() {
     return `Yakin nih?!`
   } else if(usia.value >= 35) {
     una['Status'] += 'WASPADA';
-    gambar.src = 'img/5.jpg';
+    gambar.src = 'img/5.png';
     status.innerHTML = una['Status'];
   } else if(usia.value >= 32) {
     una['Status'] += 'SIAGA';
-    gambar.src = 'img/4.jpg';
+    gambar.src = 'img/4.png';
     status.innerHTML = una['Status'];
   } else if(usia.value >= 29) {
     una['Status'] += 'MATANG';
@@ -47,10 +47,10 @@ function count() {
     status.innerHTML = una['Status'];
   } else if(usia.value >= 26) {
     una['Status'] += 'CUKUP';
-    gambar.src = 'img/22.png';
+    gambar.src = 'img/7.png';
     status.innerHTML = una['Status'];
-  } else if(usia.value = 25) {
-    una['Status'] += 'SUNNAH RASUL';
+  } else if(usia.value == 25) {
+    una['Status'] = 'SUNNAH RASUL';
     gambar.src = 'img/2.png';
     status.innerHTML = una['Status'];
   } else if(usia.value >= 21) {
@@ -58,11 +58,11 @@ function count() {
     gambar.src = 'img/1.jpg';
     status.innerHTML = una['Status'];
   } else if(usia.value >= 15) {
-    gambar.src = 'img/m1.jpg';
+    gambar.src = 'img/9.png';
     status.innerHTML = 'Sekolah dulu, Nak..';
     return 'Baiknya kamu sekolah dulu yaa, Nak...';
   } else if(usia.value < 15) {
-    gambar.src = 'img/m2.jpg';
+    gambar.src = 'img/8.png';
     status.innerHTML = 'Hmm...';
     return 'Hmm...';
   }
